@@ -5,9 +5,9 @@ return (
 <div>
 <Nav className='nav navbar-expand-md bg-dark text-white p-3 overflow-x-hidden fixed-top'>
 {/* logo */}
-<NavbarBrand className='fs-2 ms-5 text-white'>Blinkit App</NavbarBrand>
+<NavbarBrand className='fs-2 ms-1 text-white'>Blinkit App</NavbarBrand>
 
-<button type='button' className='navbar-toggler btn btn-dark bg-dark float-end' style={{marginLeft:"54%"}} data-bs-toggle="collapse" data-bs-target="#navColl">
+<button type='button' className='navbar-toggler btn btn-dark bg-dark float-end'  data-bs-toggle="collapse" data-bs-target="#navColl">
 <span className='bi bi-grid text-white fs-1'></span>
 </button>
 <div className='collapse navbar-collapse' id='navColl'>
@@ -22,3 +22,4 @@ return (
 </div>
 )
 }
+
