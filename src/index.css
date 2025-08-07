@@ -1,0 +1,38 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+}
+.navbar-links 
+{
+  margin-left: 45%;
+}
+.navbar-links li 
+{
+  text-decoration: none !important;
+  padding: 5px 10px;
+  list-style-type: none;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.navbar-links a 
+{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.navbar-links 
+{
+  margin-left: 2%;
+}
+.navbar-links li 
+{
+  text-decoration: none !important;
+  padding: 10px 10px;
+  list-style-type: none;
+  display: block !important;
+  text-transform: capitalize;
+}  
+}
